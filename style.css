@@ -1,0 +1,84 @@
+/* All Style */
+/* * {
+  outline: 2px solid red;
+} */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+/* Style for the index */
+h1:not(.title) {
+  font-family: "lucida handwriting", cursive;
+  text-align: center;
+}
+p.welcome-text {
+  text-align: center;
+  font-size: 1.2em;
+  margin: 20px;
+}
+
+div.link-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Style for recipes */
+/* Header */
+div.recipe-header,
+div.Ingredients,
+div.Instructions {
+  margin: 20px;
+  border-radius: 10px;
+}
+div.recipe-header {
+  text-align: center;
+  background-color: lightgoldenrodyellow;
+  padding: 20px;
+}
+h1.title {
+  background-color: beige;
+  border-radius: 10px;
+  outline: 1px solid black;
+}
+h2.sub-title {
+  text-align: center;
+  background-color: lightcoral;
+  border-radius: 10px 10px 0px 0px;
+  margin-bottom: 10px;
+}
+div.prelude {
+  background-color: lightpink;
+  border-radius: 10px;
+  font-style: italic;
+  text-align: left;
+  margin: 10px 275px;
+  padding: 10px;
+}
+.prelude p {
+  margin: 1px;
+}
+/* Ingredients */
+div.Ingredients {
+  background-color: lightcyan;
+}
+div.Ingredients ul {
+  padding-bottom: 10px;
+  margin-top: 0px;
+}
+h3.int-title {
+  margin-left: 10px;
+}
+/* Instructions */
+div.Instructions {
+  background-color: lightgray;
+}
+div.Instructions *:not(.sub-title) {
+  margin: 5px 10px;
+}
+div.steps {
+  padding-bottom: 10px;
+}
